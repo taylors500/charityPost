@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Login & Post Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 登录界面 -->
+<div class="login-container" id="login-container">
+  <div class="login-box">
+    <h2>Employee Login</h2>
+    <div id="error-message" class="error-message"></div>
+    <input type="text" id="employeeId" placeholder="Employee ID">
+    <input type="text" id="employeeName" placeholder="Employee Name">
+    <button id="loginButton">Login</button>
+  </div>
+</div>
+
+<!-- 上传 Post 界面 -->
+<div class="upload-container" id="upload-container" style="display:none;">
+  <div class="upload-box">
+    <h2>Create New Post</h2>
+    <input type="text" id="title" placeholder="Post Title">
+    <textarea id="postContent" placeholder="Post Content"></textarea>
+    <input type="file" id="file">
+    <button id="postButton">Submit Post</button>
+  </div>
+</div>
+
+<script src="mock_script.js"></script> <!-- 改成 mock_script.js 用于模拟效果 -->
+</body>
+</html>

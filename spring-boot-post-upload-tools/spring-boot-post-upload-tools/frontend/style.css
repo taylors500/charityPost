@@ -1,0 +1,57 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* 蓝白配色背景 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 登录界面 */
+.login-container, .upload-container {
+    background-color: #ffffff; /* 白色背景 */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-box input, .upload-box input, .upload-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-box button, .upload-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF; /* 蓝色按钮 */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-box button:hover, .upload-box button:hover {
+    background-color: #0056b3; /* 按钮悬浮效果 */
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+}
+
+/* 上传界面 */
+textarea {
+    resize: none;
+    height: 100px;
+}
