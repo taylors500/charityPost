@@ -25,7 +25,7 @@ private static final String regionName = "your-region";       // 地区名称，
 
 ### 2. 替换 `application.properties` 的 URL
 
-在 `backend/src/main/resources/application.properties` 文件中，找到以下字段：
+在 `backend/src/main/resources/application.properties` 文件中，找到以下字段（文件内当前不是这个内容，anyway你可以参考~）：
 
 ```properties
 spring.data.mongodb.uri=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
