@@ -103,7 +103,7 @@ spring.data.mongodb.uri=mongodb+srv://<username>:<password>@cluster0.mongodb.net
 
 为了方便慈善组织使用，我们希望将这个应用打包成一个可以运行的 `.exe` 文件，用户双击运行时可以启动本地服务器，前后端自动加载并占用本地端口。你可以参考以下步骤：
 
-### 1. 使用 `JPackage` 打包 Spring Boot 应用
+### 1. 使用 `JPackage` 打包 Spring Boot 应用【先别做这个，请先加载静态资源，详见 2. 部署前端】
 
 `JPackage` 是 JDK 自带的工具，可以将 Java 应用打包成可执行文件，适合将 Spring Boot 项目打包成 `.exe`。
 
